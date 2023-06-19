@@ -2,7 +2,7 @@
   text-align: center;
   height: 100vh;
   width: 100%;
-  
+  margin: auto;
   background-color: transparent;
 }
 
@@ -197,12 +197,14 @@ h1 {
 .footer-img {
   position: relative;
   object-fit:cover;
-  width: 100%;
+  width: 90%;
   height: 500px;
-
   margin-bottom: 50px;
+  border-radius: 5px;
   
 }
+
+
 /* @media (max-width:565px) {
   img {
     height: 100px;
