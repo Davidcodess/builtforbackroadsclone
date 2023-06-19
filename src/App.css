@@ -17,6 +17,7 @@
 .d-inline-block.align-text-top {
   height: 150px;
   float: left;
+  
 
 }.container-fluid {
   height: 160px;
@@ -48,7 +49,7 @@ nav {
 
 h1 {
   font-size: 18px;
-  padding-top: 40px;
+  padding-top: 100px;
   padding-bottom: 10px;
   text-align: center;
 }
@@ -58,6 +59,7 @@ h1 {
   margin: auto;
   font-size: 14px;
   text-align: center;
+  padding-bottom: 100px;
 }
 
 .car-link-container {
@@ -92,10 +94,17 @@ h1 {
   display: flex;
   justify-content: space-around;
   width: 90%;
-  flex-wrap: wrap;
   margin: auto;
 }
 
+.homepage-cars-for-sale-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+  
+}
 .main-car-container {
   position: relative;
   z-index: 10;
@@ -139,9 +148,60 @@ h1 {
 .cars-container {
   display: flex;
   flex-direction: column;
-  width: 33%;
-  height: auto;
-  padding: 10px;
+  max-width: 550px;
+  height: 550px;
+  padding: 30px;
+  margin: auto;
+  justify-content: start;
+}
+
+.homepage-car-img {
+  height: 80%;
+  max-width: 550px;
+  margin: auto;
+  border-radius: 5px;
+  object-fit: fill;
+}
+
+.homepage-car-text {
+  width: 70%;
+  text-align: left;
+  font-size: 13px;
+}
+
+.homepageH2 {
+  text-align: left;
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.loadBtn {
+  width: 20%;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  background-color: rgb(247, 121, 4);
+  border: none;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.loadBtn:hover {
+  background-color: rgba(226, 118, 16, 0.911);
+}
+
+
+.footer-img {
+  position: relative;
+  object-fit:cover;
+  width: 100%;
+  height: 500px;
+
+  margin-bottom: 50px;
+  
 }
 /* @media (max-width:565px) {
   img {

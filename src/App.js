@@ -2,6 +2,7 @@
 import './App.css';
 import NavBar from './NavBar.js';
 import Home from './home.js';
+import Footer from './Footer.js';
 
 function App() {
   return (
@@ -9,7 +10,8 @@ function App() {
      
       < NavBar />
       < Home />
-      
+      <br/>
+      < Footer />
       
     </div>
   );
