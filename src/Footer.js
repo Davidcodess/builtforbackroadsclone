@@ -34,13 +34,13 @@ class Footer extends React.Component {
                         <h6> Subscribe</h6>
                         <p className="subscribe-p"> Be the first to know of the latest driver-focused cars for sale.</p>
                             <form>
-                            <input type="email" placeholder="Enter email" name="email"></input>
+                            <input type="email" required placeholder="Enter email" name="email"></input>
                             <button className="subscribeBtn"> SIGN UP</button>
                             </form>
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
                     </div>
                 </div>
             </>
-
 
 
         )

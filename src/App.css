@@ -15,13 +15,15 @@
 }
 
 .d-inline-block.align-text-top {
-  height: 150px;
+  height: 75px;
   float: left;
+  object-fit: cover;
   
 
 }.container-fluid {
-  height: 160px;
+  height: 90px;
   background-color: black;
+  width: 100%;
 }
 
 nav {
@@ -37,14 +39,15 @@ nav {
 }
 
 .nav-link {
-  font-size: 14px;
+  font-size: 15px;
   padding: 5px;
 
 }
 
 .nav-link:hover {
-  color: rgb(137, 167, 211);
+  color: rgb(247, 121, 4);
   font-weight: 700;
+
 }
 
 h1 {
@@ -204,6 +207,82 @@ h1 {
   
 }
 
+.footer-section  {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  width: 90%;
+  max-width: 1680px;
+  margin: auto;
+  border-top: 1px solid rgb(155, 153, 153);
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  
+
+}
+
+.footer-link-section {
+  width: 40%;
+  display: flex;
+  
+}
+
+.footer-link-container {
+  margin: auto;
+  justify-content: space-evenly;
+  text-align: start;
+  width: 50%;
+  height: 175px;
+  float: left;
+}
+
+.subscription-container {
+  
+  height: 175px;
+  margin: auto;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+}
+h4 {
+  color: #dbd7d7;
+  font-size: 17px;
+  text-align: left;
+  
+}
+
+ul {
+  list-style: none;
+  text-align: left;
+  padding: unset;
+}
+
+h6 {
+  color: rgb(247, 121, 4);
+  font-size: 17px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.subscribe-p {
+text-align: left;
+font-size: 15px;
+color: black;
+font-weight: 600;
+}
+form {
+  border-bottom: 1px solid black;
+}
+input {
+  width: 80%;
+  border: none;
+  color: black;
+}
+
+.subscribeBtn {
+  border: none;
+  background-color: transparent;
+  margin-bottom: 3px;
+}
 
 /* @media (max-width:565px) {
   img {

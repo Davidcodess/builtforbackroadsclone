@@ -7,7 +7,7 @@ import Footer from './Footer.js';
 function App() {
   return (
     <div className="App">
-     
+      
       < NavBar />
       < Home />
       <br/>
